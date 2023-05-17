@@ -1,0 +1,8 @@
+README.md
+*.otf
+
+
+{{ if (ne .chezmoi.os "windows") }}
+Documents
+AppData
+{{ end }}
